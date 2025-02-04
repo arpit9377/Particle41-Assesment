@@ -18,8 +18,8 @@ Ensure you have the following installed:
 ## Running Locally
 ### Clone the Repository
 ```sh
- git clone https://github.com/yourusername/your-repo.git
- cd your-repo
+ git clone https://github.com/arpit9377/Particle41-Assesment
+ cd Particle41-Assesment
 ```
 
 ### Build and Run Docker Container
@@ -91,9 +91,5 @@ curl http://your-load-balancer-url/
     ├── main.tf
     
 ```
-
-## Notes
-- The application **does not** run as root inside the container.
-- Secrets (AWS keys, API keys) **must not** be pushed to GitHub.
 
 
